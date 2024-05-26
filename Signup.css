@@ -1,0 +1,114 @@
+
+.signupbody {
+    background-color: #0056b3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Signup-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Signup-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Signup-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup-container label {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.Signup-container input[type="email"],
+.Signup-container input[type="password"],
+.Signup-container input[type="text"],
+.Signup-container input[type="tel"]
+{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Signup-container label[type="User"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+    color: #252627aa; 
+}
+
+
+
+.Signup-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Signup-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Signup-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Signup-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.Signup-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Signup-container p a {
+    color: #007bff;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Signup-container p a:hover {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+

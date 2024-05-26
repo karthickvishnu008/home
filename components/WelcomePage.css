@@ -1,0 +1,39 @@
+/* WelcomePage.css */
+.welcome-page {
+    background-image: url('/src/images/welcomeBG.webp'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some space between the buttons and the heading */
+}
+
+.heading{
+    font-size: 3.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buy-button, .sell-button {
+    background-color: red; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; 
+    margin: 0 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.buy-button:hover, .sell-button:hover {
+    background-color: blue; 
+}

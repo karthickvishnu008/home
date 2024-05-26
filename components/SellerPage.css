@@ -1,0 +1,66 @@
+/* SellerPage.css */
+.seller-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+}
+
+.seller-page h2 {
+    margin-bottom: 20px;
+}
+
+.seller-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.seller-page label {
+    margin-bottom: 10px;
+}
+
+.seller-page input[type="text"],
+.seller-page input[type="number"],
+.seller-page input[type="email"],
+.seller-page input[type="tel"],
+.seller-page input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.seller-page button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seller-page button:hover {
+    background-color: #0056b3;
+}
+
+.seller-page img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.success-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #aaa;
+}

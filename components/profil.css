@@ -1,0 +1,28 @@
+ .property-filter{
+    background-color:rgb(184, 208, 208);
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.property-filter select {
+    padding:10px;
+    margin: 8px;
+}
+
+.property-filter  input[type="text"]{
+    padding:8px;
+    margin: 8px;
+    margin-right: 3px;
+}
+
+.property-filter  button[type="button"]{
+ padding: 8px;
+ margin: 3px;
+ min-height: 7px;
+
+}  
+
+.property-icons span {
+    margin: 10px 0; 
+}
